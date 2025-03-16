@@ -1,0 +1,23 @@
+{
+  "name": "ip-echo-server",
+  "version": "1.0.0",
+  "description": "Echo back your IP address",
+  "homepage": "https://github.com/rabuu/ip-echo-server#readme",
+  "bugs": {
+    "url": "https://github.com/rabuu/ip-echo-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabuu/ip-echo-server.git"
+  },
+  "license": "MIT",
+  "author": "rabuu",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
