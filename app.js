@@ -7,7 +7,7 @@ app.set('trust proxy', true)
 app.get("/", (req, res) => {
 	console.log(`GET request by ${req.ip}`)
 	res.set('Content-Type', 'text/plain')
-	res.send(req.ip)
+	res.send(`${req.ip}\n`)
 })
 
 app.listen(port, () => {
